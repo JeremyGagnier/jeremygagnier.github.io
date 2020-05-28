@@ -3,9 +3,12 @@ import { initResources } from "./../resources/ImageManager"
 import HomePage from "./HomePage"
 
 const LOADING_PAGE_STYLE = {
+    left: "0px",
+    top: "0px",
+    position: "fixed",
     width: "100%",
     height: "100%",
-    backgroundColor: "#efefef"
+    backgroundColor: "#dfdfdf"
 }
 const LOADING_TEXT_STYLE = {
     margin: "0",
